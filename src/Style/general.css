@@ -1,0 +1,50 @@
+.card {
+    padding: 0;
+}
+
+/* .card,
+.card .card-header,
+.card .card-body,
+.card .card-footer {
+    background-color: antiquewhite;
+} */
+
+.card-header {
+    font-weight: bolder;
+}
+
+.card-header span {
+    font-weight: lighter;
+    font-size: 0.8em;
+}
+
+.card .card-body {
+    font-style: italic;
+}
+
+.card-pendiente {
+    background-color: #fffec273;
+    box-shadow: 0px 1px 13px #fffec273;
+}
+
+.card-completada {
+    background-color: #a5eea07a;
+    box-shadow: 0px 1px 13px #a5eea07a;
+}
+
+.list-row.pendiente td {
+    background-color: #fffec273;
+}
+
+.list-row.completada td {
+    background-color: #a5eea07a;
+}
+
+.list-row .status::first-letter {
+    text-transform: uppercase;
+}
+
+.btn-primary {
+    background-color: #b2dafa;
+    color: #4d4d4d
+}
